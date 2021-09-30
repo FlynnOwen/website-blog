@@ -182,13 +182,13 @@ a:link, i {
       position: relative;
       flex: 0 0 100%;
       width: 100%;
-      background-color: #f99;
+      background-color:white;
       counter-increment: item;
       border-radius: 25px;
     }
     
     .carousel__slide:nth-child(even) {
-      background-color: #99f;
+      background-color:white;
     }
     
     .carousel__slide:before {
@@ -283,4 +283,9 @@ a:link, i {
 
 .project {
   text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
 }
