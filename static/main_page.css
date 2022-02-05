@@ -53,6 +53,7 @@ a:link, i {
     }
 
 .profile {
+  font: caption;
   position: absolute;
   height: 400px;
   width: 650px;
@@ -64,36 +65,47 @@ a:link, i {
   color: rgb(0, 0, 0);
 }
 
+.profile-img{
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
 .profile-text{
   font-size: 50px;
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 10%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
-}
-
-.FMM{
-  position: absolute;
-  top: 50%;
-  height: 30%;
-  width: 100%;
-}
-
-.FMM img {
-  width: 100%;
-  height: auto;
 }
 
 .profile-text-description{
   font-size: 25px;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 20%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
+}
+
+.work-images{
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  height: 30%;
+  width: 100%;
+  display:inline-block;
+}
+
+.work-images img {
+  width: 30%;
+  height: 150px;
+  object-fit: cover;
 }
 
 .project {
