@@ -1,4 +1,0 @@
-Readings:
-
-JS + HTML + Flask
-https://www.youtube.com/watch?v=kng-mJJby8g&ab_channel=TechWithTim
