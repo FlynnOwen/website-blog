@@ -63,6 +63,8 @@ a:link, i {
   transform: translate(-50%, -50%);
   background: rgba(66, 61, 61, 0.85);
   color: rgb(0, 0, 0);
+  border: black solid 2px;
+  padding: 5px;
 }
 
 .profile-img{
