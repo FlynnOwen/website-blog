@@ -4,3 +4,5 @@ venv/
 .vscode/
 
 */__pychache__
+__pychache__/*
+.pytest_cache/
