@@ -74,7 +74,7 @@ a:link, i {
 }
 
 .profile-text{
-  font-size: 50px;
+  font-size: 40px;
   position: absolute;
   left: 53%;
   top: 13%;
@@ -85,7 +85,7 @@ a:link, i {
 }
 
 .profile-text-description{
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   left: 53%;
   top: 25%;
