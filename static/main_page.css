@@ -1,19 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
-  .wrapper {
+.wrapper {
     height: 250px;
     /*This part is important for centering*/
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
   }
 
 a:link, i {
@@ -21,7 +17,11 @@ a:link, i {
   }
 
 .socials {
-    margin-left: 90%;
+    margin-left: 95%;
+    margin-left: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
 }
 
 .mainbody {
@@ -76,8 +76,9 @@ a:link, i {
 .profile-text{
   font-size: 50px;
   position: absolute;
-  left: 50%;
-  top: 10%;
+  left: 53%;
+  top: 13%;
+  text-decoration: underline;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -86,8 +87,8 @@ a:link, i {
 .profile-text-description{
   font-size: 25px;
   position: absolute;
-  left: 50%;
-  top: 20%;
+  left: 53%;
+  top: 25%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -95,18 +96,73 @@ a:link, i {
 
 .work-images{
   position: absolute;
-  bottom: 30%;
-  left: 5%;
-  height: 30%;
+  bottom: 25%;
+  height: 150px;
   width: 100%;
-  display:inline-block;
+  display:flex;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 30px;
+}
+
+.img_wrap {
+  position: relative;
+  height: 150px;
+  width: 30%;
+  left: 5.5%;
 }
 
 .work-images img {
-  width: 30%;
+  width: 95%;
   height: 150px;
   object-fit: cover;
 }
+
+.work-img_description {
+  width: 95%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(167, 29, 167, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  height:150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .work-img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.quotes {
+  bottom: 10%;
+  left: 25%;
+  position: absolute;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font: caption;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.social {
+  transition: all .2s ease-in-out; 
+  padding: 2px;
+}
+
+.social:hover { 
+  transform: scale(1.3); 
+  }
+
 
 .project {
   text-align: center;
