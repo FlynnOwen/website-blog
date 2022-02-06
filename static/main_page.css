@@ -73,6 +73,7 @@ a:link, i {
   width: 100px;
   margin-top: 2%;
   margin-left: 7%;
+  border: 1px solid black;
 }
 
 .profile-text{
