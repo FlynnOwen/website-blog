@@ -110,10 +110,55 @@ a:link, i {
   font-size: 16px;
 }
 
+.social-text-wrap {
+  position: absolute;
+  bottom: 35%;
+  left: 13%;
+  width: 80%;
+  height: 7%;
+  display: flex;
+}
+
+.social-text {
+  border-radius: 5px;
+  width: 44%;
+  height: 100%;
+  padding-top: 4px;
+  padding-left: 4px;
+  text-align: center;
+  transition: all .2s ease-in-out; 
+}
+
+.social-text:hover { 
+  transform: scale(1.3); 
+  }
+
+
+.social-text:first-child {
+  margin-right: 15%;
+}
+
+.social-text-final {
+  position: absolute;
+  border-radius: 5px;
+  width: 50%;
+  height: 7%;
+  left: 28%;
+  bottom: 25%;
+  padding-top: 4px;
+  padding-left: 4px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+
+.social-text-final:hover { 
+  transform: scale(1.3); 
+  }
+
 
 .quotes {
-  bottom: 12%;
-  left: 20%;
+  bottom: 6%;
+  left: 15%;
   position: absolute;
   margin: 0 auto;
   width: 70%;
