@@ -9,7 +9,7 @@ def generate_quote():
 
     quotes = [
         "\"If a machine is expected to be infallible, it cannot also be intelligent.\" - Alan Turing",
-        "\"All models are wrong, but some are useful.",
+        "\"All models are wrong, but some are useful.\"",
         "\"I learned very early the difference between knowing the name of something and knowing something.\" - Richard Feynman",
         "\"Talk is cheap. Show me the code.\" - Linus Torsvalds",
         "\"Intelligence is the ability to avoid doing work, yet getting the work done.\" - Linus Torsvalds",
