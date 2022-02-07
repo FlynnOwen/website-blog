@@ -87,6 +87,12 @@ a:link, i {
   color: rgb(0, 0, 0);
 }
 
+#project-code{
+  position: absolute;
+  left: 80%;
+  top: 10%;
+}
+
 .profile-text-description{
   font-size: 20px;
   position: absolute;
