@@ -52,35 +52,40 @@ a:link, i {
 
     }
 
+
 .profile {
   font: caption;
   position: absolute;
-  height: 425px;
-  width: 650px;
+  height: 500px;
+  width: 420px;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: rgba(83, 79, 79, 0.85);
-  color: rgb(0, 0, 0);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3); 
+  border-radius: 5px;
   border: black solid 2px;
+  background-color: rgba(255, 255, 255, .15);
   padding: 5px;
+  
+  backdrop-filter: blur(5px);
 }
 
 .profile-img{
   border-radius: 50%;
-  height:100px;
-  width: 100px;
-  margin-top: 2%;
-  margin-left: 7%;
+  position: absolute;
+  height:120px;
+  width: 120px;
+  top: 12%;
+  left: 38%;
   border: 1px solid black;
 }
 
 .profile-text{
-  font-size: 40px;
+  font-size: 25px;
   position: absolute;
-  left: 53%;
-  top: 13%;
+  left: 50%;
+  top: 6%;
   text-decoration: underline;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -90,69 +95,24 @@ a:link, i {
 #project-code{
   position: absolute;
   left: 80%;
-  top: 10%;
+  top: 3%;
 }
 
-.profile-text-description{
-  font-size: 20px;
+
+#main {
+  top: 40%;
+  left: 18%;
   position: absolute;
-  left: 53%;
-  top: 25%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  font: caption;
+  font-size: 16px;
 }
 
-.work-images{
-  position: absolute;
-  bottom: 29%;
-  height: 150px;
-  width: 100%;
-  display:flex;
-  font-family: 'Brush Script MT', cursive;
-  font-size: 30px;
-}
-
-.img_wrap {
-  position: relative;
-  height: 150px;
-  width: 30%;
-  left: 5.5%;
-}
-
-.work-images img {
-  width: 95%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.work-img_description {
-  width: 95%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(167, 29, 167, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  height:150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.img_wrap:hover .work-img_description {
-  visibility: visible;
-  opacity: 1;
-}
 
 .quotes {
-  bottom: 8%;
+  bottom: 12%;
   left: 20%;
   position: absolute;
   margin: 0 auto;
